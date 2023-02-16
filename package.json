@@ -1,0 +1,28 @@
+{
+  "name": "test-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamarZaguia/Test-NodeJs.git"
+  },
+  "author": "zaguia samar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamarZaguia/Test-NodeJs/issues"
+  },
+  "homepage": "https://github.com/SamarZaguia/Test-NodeJs#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.28.0",
+    "sequelize-cli": "^6.6.0"
+  }
+}
